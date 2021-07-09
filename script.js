@@ -17,10 +17,12 @@ function updateRate(updated_rate) {
 
 function validateInput() {
     var amount = document.getElementById("amount").value
-    if (amount == "")
+    if (amount == "") {
         return false;
+    }
     if (amount <= 0) {
-        alert("Amount must be positive!")
+        alert("Amount must be positive!");
+        document.getElementById("amount").focus(); 
         return false;
     }
     return true;
