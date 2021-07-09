@@ -1,4 +1,28 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+}
+
+.center_div {
+    background-color:white;
+    color:black;
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+.p {
+    position: relative;left: -50%;
+}
+
+h1{
+    color:gray;
+    font-family: Verdana；
+}
 
 
